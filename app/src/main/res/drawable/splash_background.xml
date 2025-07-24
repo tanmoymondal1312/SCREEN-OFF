@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background -->
+    <item android:drawable="@color/splash_bg" />
+
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/app_logo_scaled"
+            android:gravity="center"
+            android:tileMode="disabled" />
+    </item>
+
+    <item android:gravity="bottom|center_horizontal" android:bottom="100dp">
+        <bitmap
+            android:src="@drawable/mother_brand_from_logo_small"
+            android:gravity="center"
+            android:tileMode="disabled" />
+    </item>
+
+</layer-list>
+
